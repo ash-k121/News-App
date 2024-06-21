@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# News - App
+Overview
+For this assignment, I developed a responsive React application that serves as a news portal, fetching articles from a public API. The application allows users to browse news articles, filter them by categories, implement pagination for easier navigation, and view detailed articles.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features Implemented
+Homepage Layout
+The homepage displays a list of news articles with titles, images, and summaries. The design is responsive, ensuring a seamless experience across desktop and mobile devices.
 
-## Available Scripts
+Category Filtering
+Users can filter articles by categories such as Business, Technology, and Entertainment. This feature enhances user experience by presenting relevant content based on their interests.
 
-In the project directory, you can run:
+Pagination
+Pagination functionality enables users to navigate through multiple pages of articles efficiently. This ensures that the interface remains clean and manageable while accommodating a large number of articles.
 
-### `npm start`
+Detailed Article View Page
+Clicking on an article summary navigates users to a detailed view where they can read the full content. This view includes media elements like images or videos embedded within the article.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API Integration
+I integrated a public news API (e.g., NewsAPI) to fetch real-time news articles. The application handles loading states and error handling gracefully to ensure smooth user interaction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+State Management
+React hooks were utilized for managing state, handling user inputs, API responses, and application state effectively. Redux toolkit was employed for centralized state management, facilitating seamless data flow throughout the application.
 
-### `npm test`
+Advanced Task (Optional)
+As an advanced feature, I implemented a search functionality enabling users to search for articles by keywords. Additionally, a "favorites" feature was added where users can save articles, utilizing local storage to persist favorites between sessions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technical Implementation
+Technologies: React, Redux Toolkit, Axios for API calls, CSS Grid for responsive design.
+Development: Functional components and hooks were extensively used for building components and managing state. CSS was employed for styling, ensuring a clean and user-friendly interface.
+Deployment: The application was hosted using a free hosting platform (e.g., Netlify, Vercel), and the source code was version-controlled on GitHub for easy access and collaboration.
