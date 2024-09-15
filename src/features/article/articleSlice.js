@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_KEY = "eec0e63bc18345e7b416529c9eddbd1a";
+const API_KEY = "d427070e8ae140738dd32e1703072fe9";
 
 const initialState = {
   articles: [],
